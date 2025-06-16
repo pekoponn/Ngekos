@@ -676,7 +676,7 @@
                     <div class="kos-card">
                         <img src="{{ $kos->thumbnail ? asset('storage/' . $kos->thumbnail) : 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=250&fit=crop' }}" 
                              alt="{{ $kos->name }}" 
-                             onerror="this.src='">
+                             onerror="this.src=">
                         
                         <div class="card-content">
                             @if($kos->category)
